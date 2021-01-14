@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+div.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header{
+    background-color: #3b5998;
+    padding: 8px 0;
+}
+div.logo{
+    float: left;
+    color: white;
+}
+div.logo h2{
+    font-size: 29px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+div.clear{
+    clear: both;
+}
+form.form-login{
+    float: right;
+}
+
+form.form-login div.form-element{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+form.form-login div.form-element p{
+    color: white;
+    font-size: 14px;
+}
+form.form-login div.form-element input[type=email], 
+form.form-login div.form-element input[type=password]{
+    margin-top: 5px;
+    border: 0;
+    padding: 3px;
+    outline: none;
+}
+form.form-login div.form-element input[type=submit]{
+    cursor: pointer;
+    border: none;
+    background-color:  #3b5998;
+    color: white;
+    padding: 3px 5px;
+}
+form.form-login div.form-element input[type=submit]:hover{
+    background-color: #1f4ba6;
+}
+
+section.main{
+    background: linear-gradient(white, #D3D8E8);
+    padding: 40px 0;
+}
+
+div.img-pessoas{
+    float: left;
+    width: 60%;
+}
+div.img-pessoas img{
+    max-width: 100%;
+}
+div.img-pessoas h3{
+    max-width: 460px;
+    font-size: 20px;
+    color: #0e385f;
+}
+div.abrir-conta{
+	margin-top: -18px;
+    float: left;
+    width: 40%;
+}
+
+div.abrir-conta h2{
+    color: #333;
+    font-size: 35px;
+}
+
+div.abrir-conta h3{
+    color: rgb(30, 30, 30);
+    font-size: 19px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+form.criar-conta{
+    margin-top: 10px;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+    padding: 5px 5px 0 0;
+}
+
+.w100{
+    width: 100%;
+    float: left;
+    padding: 5px 5px 0 0;
+}
+form.criar-conta input{
+    width: 100%;
+}
+form.criar-conta input[type=email], 
+form.criar-conta input[type=text],
+form.criar-conta input[type=password]{
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    outline: none;
+}
+form.criar-conta input[type=submit]{
+	height: 40px;
+	background:linear-gradient(#67ae55, #578843);
+	color: white;
+	cursor: pointer;
+	border: 0;
+	max-width: 200px;
+	font-size: 19px;
+}
+form .w100 h2{
+	margin-top:10px;
+	color: #1d2129;
+	font-size: 22px;
+	font-weight: normal;	
+}
+form select.nascimento{
+	float: left;
+	margin-top: 5px;
+}
+.input-radio{
+	float: left;
+	margin: 8px 10px;
+}
+.input-radio h2{
+	display: inline-block;
+}
+.input-radio input[type=radio]{
+	width: auto !important;
+	display: inline-block;
+}
+section.linguas{
+	padding:30px 0;	
+}
+section.linguas a{
+	padding-right: 15px;
+	font-size: 14px;
+	color: #365899;
+	text-decoration: none;
+}
+section.linguas a.select-lingua{
+	color: #737373;
+}
+section.linguas.center{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 10px;
+	border-bottom:1px solid #ccc;
+}
+
+@media screen and (max-width:768px){
+	.logo{
+		float: none;
+		width:100%;
+		text-align: center;
+}
+	form.form-login{
+		margin-top: 17px;
+		display: inline-block;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	form.form-login div.form-element{
+    	display: block;
+    	margin:10px 0;
+}
+
+	form.form-login div.form-element p{
+    	color: white;
+    	font-size: 14px;
+}
+	form.form-login div.form-element input[type=email], 
+	form.form-login div.form-element input[type=password]{
+    	margin-top: 5px;
+    	border: 0;
+    	padding: 3px;
+    	outline: none;
+    	width: 100%;
+    	max-width: 320px;
+}
+	.img-pessoas{
+		display: none;
+	}
+
+	div.abrir-conta{
+		width: 100%;
+	}
+
+}
+.info{
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+.info2 a{
+ right: -200px;
+ font-size: 15px;
+ top: -27px;
+ position: relative;
+}
+.info2{
+	margin-bottom: -32px;
+}
+.sinal-adicao img{
+	width: 18px;
+	height: 18px;
+	position: relative;
+	left: 750px;
+	top: -18px;
+}
+
+
